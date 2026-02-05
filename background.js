@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://localhost:3000/analyze";
+const BACKEND_URL = "https://impulse-guard.vercel.app/analyze";
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "analyzePurchase") {
